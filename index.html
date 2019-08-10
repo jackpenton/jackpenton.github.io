@@ -14,32 +14,48 @@
 </head>
 
 <body style="font-family: Courier New;"
-	
+body {
+  font-family: "Courier New";
+}
 
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-	<b> <div align="left" style="border:2px solid black">
-	<body link="black">
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  display: block;
+}
 
+.sidenav a:hover {
+  color: #ff0000;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
 	<a href="page1.html">CONTEXT</a>
 	<a href="page2.html">PROJECT</a>
 	<a href="page3.html">ARCHIVE</a>
 	<a href="page4.html">CONTACT</a> </b>   
 </div>
-	<br>
-	<hr/>
-	
-</header>
-  
-	<div align="center">
-	<h2 style="margin-left:2%; width:800px; text-align: left"><u>ABOUT</u></h2>
-	<p style="margin-left:2%; width:800px; text-align: left;"></p>
-
-</body>
-
-
-
- </p></div>	
-	
 
 </body>
 
