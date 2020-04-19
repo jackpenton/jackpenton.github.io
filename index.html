@@ -6,12 +6,7 @@
     <meta name="description" content="Contact Form">
     
 <style>
-.center {
-  margin:auto;
-  width: 30%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-}
+p.solid {border-style: solid; padding: 10px; margin:auto;}
 </style>
 </head>
     
@@ -19,18 +14,17 @@
         
   <form class="gform pure-form pure-form-stacked" method="POST" data-email="jackpentonmedia@gmail.com"
   action="https://script.google.com/macros/s/AKfycbx8bi_ktVrLfjJJV3Gkg91mAAfWr8RW-xBVfWOykP5mOIx8LRk/exec">
-    <!-- change the form action to your script url -->
+
 
 <div class="center">
-
-    <div class="form-elements">
- 
+<div class="form-elements">
+<p class="solid"
 
         <label for="firstname">First name: </label>
         <br>
         <input id="firstname" name="firstname"/>
        
-      <br>
+        <br>
       
       
         <label for="lastname">Last name: </label>
@@ -51,10 +45,9 @@
         <br>
         <br>
 
-      <button>
-        Submit</button>
+      <button>Submit</button>
     
-
+</p>
 </div>
 </div>
 
@@ -64,7 +57,7 @@
 
   </form>
 
-  <!-- Submit the Form to Google Using "AJAX" -->
+  
   <script data-cfasync="false" type="text/javascript"
   src="form-submission-handler.js"></script>
 <!-- END -->
