@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.img-info {
+    width: 100%;
+}
+
 p.solid {
     border-style: solid;
     padding:10px; 
