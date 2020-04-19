@@ -3,14 +3,6 @@
     padding: 0;
 }
 
-.wrapper {
-    width: 100%;
-}
-
-.img-info {
-    width: 100%;
-}
-
 p.solid {
     border-style: solid;
     padding:10px; 
@@ -21,12 +13,4 @@ p.solid {
 
 img {
   padding-right: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-    
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
 }
