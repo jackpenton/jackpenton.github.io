@@ -1,7 +1,8 @@
 .center {
   margin: auto;
-  width: 50%;
+  width: 370px;
   padding: 10px;
+  align:right;
 }
 
 p.solid {
