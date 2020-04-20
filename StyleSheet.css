@@ -1,5 +1,8 @@
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
 p.solid {
-    font-family: "Lucida Console", Courier, monospace;
     border-style: solid;
     padding:10px; 
     margin:auto; 
