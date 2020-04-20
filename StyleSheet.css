@@ -1,7 +1,11 @@
+body {
+font-family: "Courier New", Courier, monospace;
+}
+
+
 }
 
 p.solid {
-    font-family: Courier, monospace;
     border-style: solid;
     padding:10px; 
     margin:auto; 
@@ -16,7 +20,7 @@ img {
 }
 
 .para {
-  font-family: Courier, monospace;
   margin-left: 350px;
   margin-right: 350px;
 }
+
