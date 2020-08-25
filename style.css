@@ -1,7 +1,7 @@
 * {
 margin: 0px;
 padding: 0px;
-font-family: arial;
+font-family: monospace;
 }
 
 body {
@@ -51,7 +51,7 @@ body {
   font-size: 35px;
   padding-left: 10px;
   padding-bottom: 10px;
-  color: #FFFFFF;
+  color: white;
 }
 
 .post {
